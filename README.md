@@ -3,7 +3,7 @@
 
 ### Getting Started
 
-To generate Allure Report you should perform following steps:
+Для запуска тестов необходимо выполнить следующие действия:
 
 ```bash
 $ git clone https://github.com/katechkakondratieva/onetwotrip.git
@@ -11,7 +11,7 @@ $ cd onetwotrip
 $ mvn clean test
 ```
 
-Report will be generated to `target/site/allure-maven-plugin` folder. To open the report you can use the following command:
+Для запуска отчетов на компьютере должен быть установлен ALLURE. Запускаем с помощью команды:
 
 ```bash
 $ allure serve target\allure-results

@@ -6,6 +6,8 @@
 To generate Allure Report you should perform following steps:
 
 ```bash
+git clone https://github.com/katechkakondratieva/onetwotrip.git
+cd onetwotrip
 $ mvn clean test
 ```
 
